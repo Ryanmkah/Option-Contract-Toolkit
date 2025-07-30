@@ -31,6 +31,38 @@ A Python-powered tool for evaluating single and multi-leg option strategies. Thi
 
 ---
 
+## 🚀 How to Use
+
+1. Clone the repository to your local machine:
+   ```
+   git clone https://github.com/ryanmkah/Option-Contract-Toolkit.git
+   ```
+
+2. Navigate to the project folder:
+   ```
+   cd Option-Contract-Toolkit
+   ```
+
+3. Install the required Python libraries:
+   ```
+   pip install pandas numpy matplotlib seaborn scipy yfinance requests
+   ```
+
+4. Run the program:
+   ```
+   python options_toolkit.py
+   ```
+
+5. Follow the interactive prompts to:
+   - Choose between basic contracts, multi-leg strategies, or Black-Scholes pricing
+   - Enter option details (strike price, premium, time, etc.)
+   - View your contract's payoff and profit
+   - Generate a visual Black-Scholes heatmap for calls or puts
+
+
+
+
+
 ## 🛠 Tech Stack
 
 - Python
